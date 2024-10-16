@@ -9,6 +9,8 @@
 }
 
 body{
+    flex-direction: column;
+    gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,9 +96,10 @@ body{
     letter-spacing: 2px;
     color: #fff;
 }
-.top{
-    align-items: end;
+.footer img{
+    margin-left: 45%;
 }
+
 
 @media(max-height: 601px){
     .clip video{
