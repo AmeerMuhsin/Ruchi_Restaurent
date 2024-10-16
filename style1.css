@@ -108,3 +108,37 @@ body{
         max-width: 90%;
     }
 }
+
+@media (width < 769px) {
+    body{
+        flex-direction: column;
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+    }
+}
+
+@media (height < 600px) {
+    .btns .play{
+        position: relative;
+        width: 0px;
+        height: 0px;
+        background: #ffffff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 15px 25px #ffffff99;
+        cursor: auto;
+    }
+    .btns .play::before{
+        
+        border: 0 solid #ffffff;
+        
+    }
+    .footer img{
+        size: 0mm;
+    }
+}
